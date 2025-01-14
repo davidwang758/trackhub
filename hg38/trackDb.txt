@@ -1,8 +1,8 @@
 track  REF
-bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_wt.wig
+bigDataUrl http://hgdownload.soe.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeCshlLongRnaSeq/wgEncodeCshlLongRnaSeqA549CellLongnonpolyaMinusRawSigRep1.bigWig
 shortLabel bigWig example
 longLabel This bigWig file is an example from the ENCODE RNA-seq CSHL Track
-type wig
+type bigWig
 
 track  ALT
 bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_mut.wig
