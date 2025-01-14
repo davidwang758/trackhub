@@ -1,5 +1,5 @@
 track type=wiggle_0 name="ALT" autoScale=off viewLimits=0:1000 color=0,100,100 maxHeightPixels=100:50:20 graphType=bar priority=20
-ALT chrom=chr10 start=116691312 step=32 span=32
+fixedStep chrom=chr10 start=116691312 step=32 span=32
 8.010686
 8.195968
 7.1022134
