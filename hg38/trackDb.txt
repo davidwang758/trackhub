@@ -1,12 +1,12 @@
 track  REF
-bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/bigwig/ref.wig
+bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_wt.wig
 shortLabel bigWig example
 longLabel This bigWig file is an example from the ENCODE RNA-seq CSHL Track
 type wig
 visibility dense
 
 track  ALT
-bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/alt.wig
+bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_mut.wig
 shortLabel bigWig example
 longLabel This bigWig file is an example from the ENCODE RNA-seq CSHL Track
 type wig
