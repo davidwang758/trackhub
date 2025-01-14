@@ -1,11 +1,13 @@
 track  REF
-bigDataUrl http://hgdownload.soe.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeCshlLongRnaSeq/wgEncodeCshlLongRnaSeqA549CellLongnonpolyaMinusRawSigRep1.bw
-shortLabel bigWig example
-longLabel This bigWig file is an example from the ENCODE RNA-seq CSHL Track
+bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_wt.bw
+shortLabel REF
+longLabel Reference allele predictions.
 type bigWig
+visibility full
 
 track  ALT
 bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_mut.bw
 shortLabel bigWig example
-longLabel This bigWig file is an example from the ENCODE RNA-seq CSHL Track
+longLabel Alternative allele predictions.
 type bigWig
+visibility full
