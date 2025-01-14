@@ -1,5 +1,5 @@
 track type=wiggle_0 name="ALT" description="Alternative Allele Track" visibility=full autoScale=off viewLimits=0:1000 color=0,100,100 maxHeightPixels=100:50:20 graphType=bar priority=20
-fixedStep chrom=chr9 start=135549220 step=32 span=32
+fixedStep chrom=chr9 start=135287076 step=32 span=32
 2.5896375
 3.2086127
 7.0218835
