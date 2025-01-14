@@ -1,13 +1,24 @@
-track  REF
-bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_wt.bw
-shortLabel REF
-longLabel Reference allele predictions.
+track All_GTEx_Tissues
 type bigWig
-visibility full
-
-track  ALT
-bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_mut.bw
-shortLabel bigWig example
-longLabel Alternative allele predictions.
-type bigWig
-visibility full
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+...
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    type bigWig
+    visibility full
+    parent All_GTEx_Tissues
+    color 255,0,0
+    ...
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    type bigWig
+    visibility full
+    parent All_GTEx_Tissues
+    color 0,0,255
