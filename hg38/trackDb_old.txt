@@ -1,0 +1,29 @@
+track All_GTEx_Tissues
+type bigWig
+container multiWig
+shortLabel All_GTEx_Tissues
+longLabel Model predictions averaged over all GTEx tissues.
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent All_GTEx_Tissues
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent All_GTEx_Tissues
+    color 0,0,255

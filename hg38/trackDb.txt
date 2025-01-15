@@ -1,8 +1,8 @@
-track All_GTEx_Tissues
+track GTEx_all_tissues
 type bigWig
 container multiWig
-shortLabel All_GTEx_Tissues
-longLabel Model predictions averaged over all GTEx tissues.
+shortLabel GTEx_all_tissues
+longLabel Model predictions averaged over: GTEx_all_tissues
 visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -11,19 +11,950 @@ viewLimits 1:1000
 priority 20
 
     track  REF
-    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_wt.bw
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/GTEx_all_tissues_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
-    parent All_GTEx_Tissues
+    parent GTEx_all_tissues
     color 255,0,0
 
     track  ALT
-    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/y_mut.bw
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/GTEx_all_tissues_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
-    parent All_GTEx_Tissues
+    parent GTEx_all_tissues
     color 0,0,255
+
+track RNA:adipose_tissue
+type bigWig
+container multiWig
+shortLabel RNA:adipose_tissue
+longLabel Model predictions averaged over: RNA:adipose_tissue
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adipose_tissue_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:adipose_tissue
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adipose_tissue_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:adipose_tissue
+    color 0,0,255
+
+track RNA:adrenal_gland
+type bigWig
+container multiWig
+shortLabel RNA:adrenal_gland
+longLabel Model predictions averaged over: RNA:adrenal_gland
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adrenal_gland_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:adrenal_gland
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adrenal_gland_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:adrenal_gland
+    color 0,0,255
+
+track RNA:bladder
+type bigWig
+container multiWig
+shortLabel RNA:bladder
+longLabel Model predictions averaged over: RNA:bladder
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bladder_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:bladder
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bladder_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:bladder
+    color 0,0,255
+
+track RNA:blood
+type bigWig
+container multiWig
+shortLabel RNA:blood
+longLabel Model predictions averaged over: RNA:blood
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:blood
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:blood
+    color 0,0,255
+
+track RNA:blood_vessel
+type bigWig
+container multiWig
+shortLabel RNA:blood_vessel
+longLabel Model predictions averaged over: RNA:blood_vessel
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_vessel_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:blood_vessel
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_vessel_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:blood_vessel
+    color 0,0,255
+
+track RNA:bone_marrow
+type bigWig
+container multiWig
+shortLabel RNA:bone_marrow
+longLabel Model predictions averaged over: RNA:bone_marrow
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bone_marrow_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:bone_marrow
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bone_marrow_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:bone_marrow
+    color 0,0,255
+
+track RNA:brain
+type bigWig
+container multiWig
+shortLabel RNA:brain
+longLabel Model predictions averaged over: RNA:brain
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:brain_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:brain
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:brain_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:brain
+    color 0,0,255
+
+track RNA:breast
+type bigWig
+container multiWig
+shortLabel RNA:breast
+longLabel Model predictions averaged over: RNA:breast
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:breast_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:breast
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:breast_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:breast
+    color 0,0,255
+
+track RNA:cervix_uteri
+type bigWig
+container multiWig
+shortLabel RNA:cervix_uteri
+longLabel Model predictions averaged over: RNA:cervix_uteri
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:cervix_uteri_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:cervix_uteri
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:cervix_uteri_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:cervix_uteri
+    color 0,0,255
+
+track RNA:colon
+type bigWig
+container multiWig
+shortLabel RNA:colon
+longLabel Model predictions averaged over: RNA:colon
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:colon_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:colon
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:colon_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:colon
+    color 0,0,255
+
+track RNA:esophagus
+type bigWig
+container multiWig
+shortLabel RNA:esophagus
+longLabel Model predictions averaged over: RNA:esophagus
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:esophagus_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:esophagus
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:esophagus_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:esophagus
+    color 0,0,255
+
+track RNA:fallopian_tube
+type bigWig
+container multiWig
+shortLabel RNA:fallopian_tube
+longLabel Model predictions averaged over: RNA:fallopian_tube
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:fallopian_tube_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:fallopian_tube
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:fallopian_tube_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:fallopian_tube
+    color 0,0,255
+
+track RNA:heart
+type bigWig
+container multiWig
+shortLabel RNA:heart
+longLabel Model predictions averaged over: RNA:heart
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:heart_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:heart
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:heart_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:heart
+    color 0,0,255
+
+track RNA:kidney
+type bigWig
+container multiWig
+shortLabel RNA:kidney
+longLabel Model predictions averaged over: RNA:kidney
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:kidney_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:kidney
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:kidney_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:kidney
+    color 0,0,255
+
+track RNA:liver
+type bigWig
+container multiWig
+shortLabel RNA:liver
+longLabel Model predictions averaged over: RNA:liver
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:liver_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:liver
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:liver_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:liver
+    color 0,0,255
+
+track RNA:lung
+type bigWig
+container multiWig
+shortLabel RNA:lung
+longLabel Model predictions averaged over: RNA:lung
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:lung_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:lung
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:lung_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:lung
+    color 0,0,255
+
+track RNA:muscle
+type bigWig
+container multiWig
+shortLabel RNA:muscle
+longLabel Model predictions averaged over: RNA:muscle
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:muscle_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:muscle
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:muscle_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:muscle
+    color 0,0,255
+
+track RNA:nerve
+type bigWig
+container multiWig
+shortLabel RNA:nerve
+longLabel Model predictions averaged over: RNA:nerve
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:nerve_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:nerve
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:nerve_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:nerve
+    color 0,0,255
+
+track RNA:ovary
+type bigWig
+container multiWig
+shortLabel RNA:ovary
+longLabel Model predictions averaged over: RNA:ovary
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:ovary_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:ovary
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:ovary_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:ovary
+    color 0,0,255
+
+track RNA:pancreas
+type bigWig
+container multiWig
+shortLabel RNA:pancreas
+longLabel Model predictions averaged over: RNA:pancreas
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pancreas_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:pancreas
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pancreas_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:pancreas
+    color 0,0,255
+
+track RNA:pituitary
+type bigWig
+container multiWig
+shortLabel RNA:pituitary
+longLabel Model predictions averaged over: RNA:pituitary
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pituitary_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:pituitary
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pituitary_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:pituitary
+    color 0,0,255
+
+track RNA:prostate
+type bigWig
+container multiWig
+shortLabel RNA:prostate
+longLabel Model predictions averaged over: RNA:prostate
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:prostate_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:prostate
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:prostate_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:prostate
+    color 0,0,255
+
+track RNA:salivary_gland
+type bigWig
+container multiWig
+shortLabel RNA:salivary_gland
+longLabel Model predictions averaged over: RNA:salivary_gland
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:salivary_gland_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:salivary_gland
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:salivary_gland_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:salivary_gland
+    color 0,0,255
+
+track RNA:skin
+type bigWig
+container multiWig
+shortLabel RNA:skin
+longLabel Model predictions averaged over: RNA:skin
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:skin_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:skin
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:skin_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:skin
+    color 0,0,255
+
+track RNA:small_intestine
+type bigWig
+container multiWig
+shortLabel RNA:small_intestine
+longLabel Model predictions averaged over: RNA:small_intestine
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:small_intestine_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:small_intestine
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:small_intestine_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:small_intestine
+    color 0,0,255
+
+track RNA:spleen
+type bigWig
+container multiWig
+shortLabel RNA:spleen
+longLabel Model predictions averaged over: RNA:spleen
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:spleen_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:spleen
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:spleen_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:spleen
+    color 0,0,255
+
+track RNA:stomach
+type bigWig
+container multiWig
+shortLabel RNA:stomach
+longLabel Model predictions averaged over: RNA:stomach
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:stomach_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:stomach
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:stomach_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:stomach
+    color 0,0,255
+
+track RNA:testis
+type bigWig
+container multiWig
+shortLabel RNA:testis
+longLabel Model predictions averaged over: RNA:testis
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:testis_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:testis
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:testis_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:testis
+    color 0,0,255
+
+track RNA:thyroid
+type bigWig
+container multiWig
+shortLabel RNA:thyroid
+longLabel Model predictions averaged over: RNA:thyroid
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:thyroid_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:thyroid
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:thyroid_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:thyroid
+    color 0,0,255
+
+track RNA:uterus
+type bigWig
+container multiWig
+shortLabel RNA:uterus
+longLabel Model predictions averaged over: RNA:uterus
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:uterus_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:uterus
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:uterus_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:uterus
+    color 0,0,255
+
+track RNA:vagina
+type bigWig
+container multiWig
+shortLabel RNA:vagina
+longLabel Model predictions averaged over: RNA:vagina
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 100:50:20
+viewLimits 1:1000
+priority 20
+
+    track  REF
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:vagina_y_wt.bw
+    shortLabel REF
+    longLabel Reference allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:vagina
+    color 255,0,0
+
+    track  ALT
+    bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:vagina_y_mut.bw
+    shortLabel ALT
+    longLabel Alternative allele predictions.
+    graphTypeDefault bar
+    type bigWig
+    parent RNA:vagina
+    color 0,0,255
+
