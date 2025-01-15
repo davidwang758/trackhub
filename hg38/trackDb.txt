@@ -12,7 +12,7 @@ priority 20
 
     track  REF_GTEx_all_tissues
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/GTEx_all_tissues_y_wt.bw
-    shortLabel REF
+    shortLabel REF_GTEx_all_tissues
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -21,7 +21,7 @@ priority 20
 
     track  ALT_GTEx_all_tissues
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/GTEx_all_tissues_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_GTEx_all_tissues
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -42,7 +42,7 @@ priority 20
 
     track  REF_RNA:adipose_tissue
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adipose_tissue_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:adipose_tissue
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -51,7 +51,7 @@ priority 20
 
     track  ALT_RNA:adipose_tissue
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adipose_tissue_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:adipose_tissue
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -72,7 +72,7 @@ priority 20
 
     track  REF_RNA:adrenal_gland
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adrenal_gland_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:adrenal_gland
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -81,7 +81,7 @@ priority 20
 
     track  ALT_RNA:adrenal_gland
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adrenal_gland_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:adrenal_gland
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -102,7 +102,7 @@ priority 20
 
     track  REF_RNA:bladder
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bladder_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:bladder
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -111,7 +111,7 @@ priority 20
 
     track  ALT_RNA:bladder
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bladder_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:bladder
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -132,7 +132,7 @@ priority 20
 
     track  REF_RNA:blood
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:blood
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -141,7 +141,7 @@ priority 20
 
     track  ALT_RNA:blood
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:blood
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -162,7 +162,7 @@ priority 20
 
     track  REF_RNA:blood_vessel
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_vessel_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:blood_vessel
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -171,7 +171,7 @@ priority 20
 
     track  ALT_RNA:blood_vessel
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_vessel_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:blood_vessel
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -192,7 +192,7 @@ priority 20
 
     track  REF_RNA:bone_marrow
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bone_marrow_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:bone_marrow
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -201,7 +201,7 @@ priority 20
 
     track  ALT_RNA:bone_marrow
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bone_marrow_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:bone_marrow
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -222,7 +222,7 @@ priority 20
 
     track  REF_RNA:brain
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:brain_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:brain
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -231,7 +231,7 @@ priority 20
 
     track  ALT_RNA:brain
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:brain_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:brain
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -252,7 +252,7 @@ priority 20
 
     track  REF_RNA:breast
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:breast_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:breast
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -261,7 +261,7 @@ priority 20
 
     track  ALT_RNA:breast
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:breast_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:breast
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -282,7 +282,7 @@ priority 20
 
     track  REF_RNA:cervix_uteri
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:cervix_uteri_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:cervix_uteri
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -291,7 +291,7 @@ priority 20
 
     track  ALT_RNA:cervix_uteri
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:cervix_uteri_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:cervix_uteri
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -312,7 +312,7 @@ priority 20
 
     track  REF_RNA:colon
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:colon_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:colon
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -321,7 +321,7 @@ priority 20
 
     track  ALT_RNA:colon
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:colon_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:colon
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -342,7 +342,7 @@ priority 20
 
     track  REF_RNA:esophagus
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:esophagus_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:esophagus
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -351,7 +351,7 @@ priority 20
 
     track  ALT_RNA:esophagus
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:esophagus_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:esophagus
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -372,7 +372,7 @@ priority 20
 
     track  REF_RNA:fallopian_tube
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:fallopian_tube_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:fallopian_tube
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -381,7 +381,7 @@ priority 20
 
     track  ALT_RNA:fallopian_tube
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:fallopian_tube_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:fallopian_tube
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -402,7 +402,7 @@ priority 20
 
     track  REF_RNA:heart
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:heart_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:heart
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -411,7 +411,7 @@ priority 20
 
     track  ALT_RNA:heart
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:heart_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:heart
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -432,7 +432,7 @@ priority 20
 
     track  REF_RNA:kidney
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:kidney_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:kidney
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -441,7 +441,7 @@ priority 20
 
     track  ALT_RNA:kidney
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:kidney_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:kidney
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -462,7 +462,7 @@ priority 20
 
     track  REF_RNA:liver
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:liver_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:liver
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -471,7 +471,7 @@ priority 20
 
     track  ALT_RNA:liver
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:liver_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:liver
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -492,7 +492,7 @@ priority 20
 
     track  REF_RNA:lung
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:lung_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:lung
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -501,7 +501,7 @@ priority 20
 
     track  ALT_RNA:lung
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:lung_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:lung
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -522,7 +522,7 @@ priority 20
 
     track  REF_RNA:muscle
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:muscle_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:muscle
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -531,7 +531,7 @@ priority 20
 
     track  ALT_RNA:muscle
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:muscle_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:muscle
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -552,7 +552,7 @@ priority 20
 
     track  REF_RNA:nerve
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:nerve_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:nerve
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -561,7 +561,7 @@ priority 20
 
     track  ALT_RNA:nerve
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:nerve_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:nerve
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -582,7 +582,7 @@ priority 20
 
     track  REF_RNA:ovary
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:ovary_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:ovary
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -591,7 +591,7 @@ priority 20
 
     track  ALT_RNA:ovary
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:ovary_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:ovary
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -612,7 +612,7 @@ priority 20
 
     track  REF_RNA:pancreas
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pancreas_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:pancreas
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -621,7 +621,7 @@ priority 20
 
     track  ALT_RNA:pancreas
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pancreas_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:pancreas
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -642,7 +642,7 @@ priority 20
 
     track  REF_RNA:pituitary
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pituitary_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:pituitary
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -651,7 +651,7 @@ priority 20
 
     track  ALT_RNA:pituitary
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pituitary_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:pituitary
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -672,7 +672,7 @@ priority 20
 
     track  REF_RNA:prostate
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:prostate_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:prostate
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -681,7 +681,7 @@ priority 20
 
     track  ALT_RNA:prostate
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:prostate_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:prostate
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -702,7 +702,7 @@ priority 20
 
     track  REF_RNA:salivary_gland
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:salivary_gland_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:salivary_gland
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -711,7 +711,7 @@ priority 20
 
     track  ALT_RNA:salivary_gland
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:salivary_gland_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:salivary_gland
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -732,7 +732,7 @@ priority 20
 
     track  REF_RNA:skin
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:skin_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:skin
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -741,7 +741,7 @@ priority 20
 
     track  ALT_RNA:skin
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:skin_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:skin
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -762,7 +762,7 @@ priority 20
 
     track  REF_RNA:small_intestine
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:small_intestine_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:small_intestine
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -771,7 +771,7 @@ priority 20
 
     track  ALT_RNA:small_intestine
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:small_intestine_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:small_intestine
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -792,7 +792,7 @@ priority 20
 
     track  REF_RNA:spleen
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:spleen_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:spleen
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -801,7 +801,7 @@ priority 20
 
     track  ALT_RNA:spleen
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:spleen_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:spleen
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -822,7 +822,7 @@ priority 20
 
     track  REF_RNA:stomach
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:stomach_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:stomach
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -831,7 +831,7 @@ priority 20
 
     track  ALT_RNA:stomach
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:stomach_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:stomach
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -852,7 +852,7 @@ priority 20
 
     track  REF_RNA:testis
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:testis_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:testis
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -861,7 +861,7 @@ priority 20
 
     track  ALT_RNA:testis
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:testis_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:testis
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -882,7 +882,7 @@ priority 20
 
     track  REF_RNA:thyroid
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:thyroid_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:thyroid
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -891,7 +891,7 @@ priority 20
 
     track  ALT_RNA:thyroid
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:thyroid_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:thyroid
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -912,7 +912,7 @@ priority 20
 
     track  REF_RNA:uterus
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:uterus_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:uterus
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -921,7 +921,7 @@ priority 20
 
     track  ALT_RNA:uterus
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:uterus_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:uterus
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -942,7 +942,7 @@ priority 20
 
     track  REF_RNA:vagina
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:vagina_y_wt.bw
-    shortLabel REF
+    shortLabel REF_RNA:vagina
     longLabel Reference allele predictions.
     graphTypeDefault bar
     type bigWig
@@ -951,7 +951,7 @@ priority 20
 
     track  ALT_RNA:vagina
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:vagina_y_mut.bw
-    shortLabel ALT
+    shortLabel ALT_RNA:vagina
     longLabel Alternative allele predictions.
     graphTypeDefault bar
     type bigWig
