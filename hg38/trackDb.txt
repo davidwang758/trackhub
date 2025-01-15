@@ -10,7 +10,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_GTEx_all_tissues
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/GTEx_all_tissues_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -19,7 +19,7 @@ priority 20
     parent GTEx_all_tissues
     color 255,0,0
 
-    track  ALT
+    track  ALT_GTEx_all_tissues
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/GTEx_all_tissues_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -40,7 +40,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:adipose_tissue
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adipose_tissue_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -49,7 +49,7 @@ priority 20
     parent RNA:adipose_tissue
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:adipose_tissue
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adipose_tissue_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -70,7 +70,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:adrenal_gland
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adrenal_gland_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -79,7 +79,7 @@ priority 20
     parent RNA:adrenal_gland
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:adrenal_gland
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:adrenal_gland_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -100,7 +100,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:bladder
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bladder_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -109,7 +109,7 @@ priority 20
     parent RNA:bladder
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:bladder
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bladder_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -130,7 +130,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:blood
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -139,7 +139,7 @@ priority 20
     parent RNA:blood
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:blood
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -160,7 +160,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:blood_vessel
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_vessel_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -169,7 +169,7 @@ priority 20
     parent RNA:blood_vessel
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:blood_vessel
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:blood_vessel_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -190,7 +190,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:bone_marrow
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bone_marrow_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -199,7 +199,7 @@ priority 20
     parent RNA:bone_marrow
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:bone_marrow
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:bone_marrow_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -220,7 +220,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:brain
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:brain_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -229,7 +229,7 @@ priority 20
     parent RNA:brain
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:brain
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:brain_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -250,7 +250,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:breast
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:breast_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -259,7 +259,7 @@ priority 20
     parent RNA:breast
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:breast
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:breast_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -280,7 +280,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:cervix_uteri
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:cervix_uteri_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -289,7 +289,7 @@ priority 20
     parent RNA:cervix_uteri
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:cervix_uteri
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:cervix_uteri_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -310,7 +310,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:colon
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:colon_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -319,7 +319,7 @@ priority 20
     parent RNA:colon
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:colon
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:colon_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -340,7 +340,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:esophagus
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:esophagus_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -349,7 +349,7 @@ priority 20
     parent RNA:esophagus
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:esophagus
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:esophagus_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -370,7 +370,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:fallopian_tube
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:fallopian_tube_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -379,7 +379,7 @@ priority 20
     parent RNA:fallopian_tube
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:fallopian_tube
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:fallopian_tube_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -400,7 +400,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:heart
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:heart_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -409,7 +409,7 @@ priority 20
     parent RNA:heart
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:heart
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:heart_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -430,7 +430,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:kidney
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:kidney_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -439,7 +439,7 @@ priority 20
     parent RNA:kidney
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:kidney
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:kidney_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -460,7 +460,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:liver
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:liver_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -469,7 +469,7 @@ priority 20
     parent RNA:liver
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:liver
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:liver_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -490,7 +490,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:lung
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:lung_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -499,7 +499,7 @@ priority 20
     parent RNA:lung
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:lung
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:lung_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -520,7 +520,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:muscle
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:muscle_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -529,7 +529,7 @@ priority 20
     parent RNA:muscle
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:muscle
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:muscle_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -550,7 +550,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:nerve
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:nerve_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -559,7 +559,7 @@ priority 20
     parent RNA:nerve
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:nerve
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:nerve_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -580,7 +580,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:ovary
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:ovary_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -589,7 +589,7 @@ priority 20
     parent RNA:ovary
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:ovary
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:ovary_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -610,7 +610,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:pancreas
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pancreas_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -619,7 +619,7 @@ priority 20
     parent RNA:pancreas
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:pancreas
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pancreas_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -640,7 +640,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:pituitary
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pituitary_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -649,7 +649,7 @@ priority 20
     parent RNA:pituitary
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:pituitary
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:pituitary_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -670,7 +670,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:prostate
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:prostate_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -679,7 +679,7 @@ priority 20
     parent RNA:prostate
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:prostate
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:prostate_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -700,7 +700,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:salivary_gland
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:salivary_gland_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -709,7 +709,7 @@ priority 20
     parent RNA:salivary_gland
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:salivary_gland
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:salivary_gland_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -730,7 +730,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:skin
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:skin_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -739,7 +739,7 @@ priority 20
     parent RNA:skin
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:skin
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:skin_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -760,7 +760,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:small_intestine
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:small_intestine_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -769,7 +769,7 @@ priority 20
     parent RNA:small_intestine
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:small_intestine
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:small_intestine_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -790,7 +790,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:spleen
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:spleen_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -799,7 +799,7 @@ priority 20
     parent RNA:spleen
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:spleen
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:spleen_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -820,7 +820,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:stomach
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:stomach_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -829,7 +829,7 @@ priority 20
     parent RNA:stomach
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:stomach
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:stomach_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -850,7 +850,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:testis
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:testis_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -859,7 +859,7 @@ priority 20
     parent RNA:testis
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:testis
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:testis_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -880,7 +880,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:thyroid
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:thyroid_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -889,7 +889,7 @@ priority 20
     parent RNA:thyroid
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:thyroid
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:thyroid_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -910,7 +910,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:uterus
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:uterus_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -919,7 +919,7 @@ priority 20
     parent RNA:uterus
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:uterus
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:uterus_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
@@ -940,7 +940,7 @@ maxHeightPixels 100:50:20
 viewLimits 1:1000
 priority 20
 
-    track  REF
+    track  REF_RNA:vagina
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:vagina_y_wt.bw
     shortLabel REF
     longLabel Reference allele predictions.
@@ -949,7 +949,7 @@ priority 20
     parent RNA:vagina
     color 255,0,0
 
-    track  ALT
+    track  ALT_RNA:vagina
     bigDataUrl https://raw.githubusercontent.com/davidwang758/trackhub/refs/heads/main/data/RNA:vagina_y_mut.bw
     shortLabel ALT
     longLabel Alternative allele predictions.
