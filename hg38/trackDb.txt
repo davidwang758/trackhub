@@ -4,7 +4,7 @@ container multiWig
 shortLabel GTEx_all_tissues
 longLabel Model predictions averaged over: GTEx_all_tissues
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -34,7 +34,7 @@ container multiWig
 shortLabel RNA:adipose_tissue
 longLabel Model predictions averaged over: RNA:adipose_tissue
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -64,7 +64,7 @@ container multiWig
 shortLabel RNA:adrenal_gland
 longLabel Model predictions averaged over: RNA:adrenal_gland
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -94,7 +94,7 @@ container multiWig
 shortLabel RNA:bladder
 longLabel Model predictions averaged over: RNA:bladder
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -124,7 +124,7 @@ container multiWig
 shortLabel RNA:blood
 longLabel Model predictions averaged over: RNA:blood
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -154,7 +154,7 @@ container multiWig
 shortLabel RNA:blood_vessel
 longLabel Model predictions averaged over: RNA:blood_vessel
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -184,7 +184,7 @@ container multiWig
 shortLabel RNA:bone_marrow
 longLabel Model predictions averaged over: RNA:bone_marrow
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -214,7 +214,7 @@ container multiWig
 shortLabel RNA:brain
 longLabel Model predictions averaged over: RNA:brain
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -244,7 +244,7 @@ container multiWig
 shortLabel RNA:breast
 longLabel Model predictions averaged over: RNA:breast
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -274,7 +274,7 @@ container multiWig
 shortLabel RNA:cervix_uteri
 longLabel Model predictions averaged over: RNA:cervix_uteri
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -304,7 +304,7 @@ container multiWig
 shortLabel RNA:colon
 longLabel Model predictions averaged over: RNA:colon
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -334,7 +334,7 @@ container multiWig
 shortLabel RNA:esophagus
 longLabel Model predictions averaged over: RNA:esophagus
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -364,7 +364,7 @@ container multiWig
 shortLabel RNA:fallopian_tube
 longLabel Model predictions averaged over: RNA:fallopian_tube
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -394,7 +394,7 @@ container multiWig
 shortLabel RNA:heart
 longLabel Model predictions averaged over: RNA:heart
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -424,7 +424,7 @@ container multiWig
 shortLabel RNA:kidney
 longLabel Model predictions averaged over: RNA:kidney
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -454,7 +454,7 @@ container multiWig
 shortLabel RNA:liver
 longLabel Model predictions averaged over: RNA:liver
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -484,7 +484,7 @@ container multiWig
 shortLabel RNA:lung
 longLabel Model predictions averaged over: RNA:lung
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -514,7 +514,7 @@ container multiWig
 shortLabel RNA:muscle
 longLabel Model predictions averaged over: RNA:muscle
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -544,7 +544,7 @@ container multiWig
 shortLabel RNA:nerve
 longLabel Model predictions averaged over: RNA:nerve
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -574,7 +574,7 @@ container multiWig
 shortLabel RNA:ovary
 longLabel Model predictions averaged over: RNA:ovary
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -604,7 +604,7 @@ container multiWig
 shortLabel RNA:pancreas
 longLabel Model predictions averaged over: RNA:pancreas
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -634,7 +634,7 @@ container multiWig
 shortLabel RNA:pituitary
 longLabel Model predictions averaged over: RNA:pituitary
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -664,7 +664,7 @@ container multiWig
 shortLabel RNA:prostate
 longLabel Model predictions averaged over: RNA:prostate
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -694,7 +694,7 @@ container multiWig
 shortLabel RNA:salivary_gland
 longLabel Model predictions averaged over: RNA:salivary_gland
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -724,7 +724,7 @@ container multiWig
 shortLabel RNA:skin
 longLabel Model predictions averaged over: RNA:skin
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -754,7 +754,7 @@ container multiWig
 shortLabel RNA:small_intestine
 longLabel Model predictions averaged over: RNA:small_intestine
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -784,7 +784,7 @@ container multiWig
 shortLabel RNA:spleen
 longLabel Model predictions averaged over: RNA:spleen
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -814,7 +814,7 @@ container multiWig
 shortLabel RNA:stomach
 longLabel Model predictions averaged over: RNA:stomach
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -844,7 +844,7 @@ container multiWig
 shortLabel RNA:testis
 longLabel Model predictions averaged over: RNA:testis
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -874,7 +874,7 @@ container multiWig
 shortLabel RNA:thyroid
 longLabel Model predictions averaged over: RNA:thyroid
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -904,7 +904,7 @@ container multiWig
 shortLabel RNA:uterus
 longLabel Model predictions averaged over: RNA:uterus
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
@@ -934,7 +934,7 @@ container multiWig
 shortLabel RNA:vagina
 longLabel Model predictions averaged over: RNA:vagina
 visibility full
-aggregate transparentOverlay
+aggregate solidOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
 viewLimits 1:100
