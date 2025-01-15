@@ -7,7 +7,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_GTEx_all_tissues
@@ -37,7 +37,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:adipose_tissue
@@ -67,7 +67,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:adrenal_gland
@@ -97,7 +97,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:bladder
@@ -127,7 +127,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:blood
@@ -157,7 +157,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:blood_vessel
@@ -187,7 +187,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:bone_marrow
@@ -217,7 +217,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:brain
@@ -247,7 +247,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:breast
@@ -277,7 +277,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:cervix_uteri
@@ -307,7 +307,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:colon
@@ -337,7 +337,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:esophagus
@@ -367,7 +367,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:fallopian_tube
@@ -397,7 +397,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:heart
@@ -427,7 +427,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:kidney
@@ -457,7 +457,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:liver
@@ -487,7 +487,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:lung
@@ -517,7 +517,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:muscle
@@ -547,7 +547,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:nerve
@@ -577,7 +577,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:ovary
@@ -607,7 +607,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:pancreas
@@ -637,7 +637,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:pituitary
@@ -667,7 +667,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:prostate
@@ -697,7 +697,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:salivary_gland
@@ -727,7 +727,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:skin
@@ -757,7 +757,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:small_intestine
@@ -787,7 +787,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:spleen
@@ -817,7 +817,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:stomach
@@ -847,7 +847,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:testis
@@ -877,7 +877,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:thyroid
@@ -907,7 +907,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:uterus
@@ -937,7 +937,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 100:50:20
-viewLimits 1:1000
+viewLimits 1:100
 priority 20
 
     track  REF_RNA:vagina
